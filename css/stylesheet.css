@@ -1,0 +1,30 @@
+/* test */
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.carousel.carousel-slider {
+    cursor: default;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.carousel-item {
+    text-shadow: 1px 1px 5px #000;
+}
+
+/* yo idk if you want this here just wanted it for testing
+   probably make another css sheet idk */
+#calendar {
+    margin: 30px auto;
+    width: 55%;
+}
+
