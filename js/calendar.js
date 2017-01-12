@@ -5,9 +5,6 @@
  * 
  */
  
- // event object api https://fullcalendar.io/docs/event_data/Event_Object/
- 
- 
  $(document).ready(function() {
      $('#calendar').fullCalendar({
          googleCalendarApiKey: 'AIzaSyBqu8fpDffsykctr0J768sDhElUffvmAcs',
@@ -17,6 +14,7 @@
          }
      });
      
+     // event object api https://fullcalendar.io/docs/event_data/Event_Object/
      $('#calendar').fullCalendar(
       'renderEvent', 
       { title: 'foo event', start: '2017-01-10' }, 
