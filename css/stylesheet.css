@@ -126,10 +126,12 @@
     }
 }
 
-/* yo idk if you want this here just wanted it for testing
-   probably make another css sheet idk */
 #calendar {
     margin: 30px auto;
     width: 55%;
     background: #fff;
+}
+
+.card {
+    min-height: 350px;
 }
