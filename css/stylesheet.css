@@ -21,9 +21,92 @@
     text-shadow: 1px 1px 5px #000;
 }
 
+.whiteCont {
+    background: #fff;
+    padding: 15px 125px 1px 125px;
+}
+
+.whiteCont-np {
+    background: #fff;
+}
+
+.cenAlign {
+    margin: 0 auto;
+}
+
+.a-package-container {
+    display: flex;
+    justify-content: center;
+    background: white;
+    padding-bottom: 20px;
+    background-image: url(https://i.imgur.com/U6MSbvs.png);
+    background-color: #fff;
+}
+
+.a-package {
+    position: relative;
+    width: 18%;
+    background: white;
+    text-align: center;
+    float: left;
+    min-height: 400px;
+    margin: 20px 10px 0px 10px;
+    box-shadow: 1px 1px 13px 0px #828282;
+}
+
+.a-title {
+    font-weight: bold;
+}
+
+.a-date {
+    font-weight: bold;
+}
+
+.a-content {
+    
+}
+
+.a-price {
+    margin: 30px;
+    font-weight: bold;
+}
+
+.a-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+}
+
+.a-contact {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.a-email {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.a-email > div {
+    display: inline-block;
+    position: relative;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.a-email > div > i {
+    position: absolute;
+    left: -35px;
+    font-size: 31px;
+}
+
 /* yo idk if you want this here just wanted it for testing
    probably make another css sheet idk */
 #calendar {
     margin: 30px auto;
     width: 55%;
+    background: #fff;
 }
